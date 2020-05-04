@@ -10,7 +10,7 @@ public class GUIWindow{
       theGUI.setTitle("GUI Program");
       //theGUI.setSize(300, 200);
       theGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      ColorPanel panel = new ColorPanel(Color.GREEN, 300, 200);
+      ColorPanel panel = new ColorPanel(Color.YELLOW, 300, 200);
       Container pane = theGUI.getContentPane();
       pane.add(panel);
       theGUI.pack();
