@@ -14,7 +14,7 @@ public class ColorPanel extends JPanel{
       setBackground(backColor);
       setPreferredSize(new Dimension(width, height));
       // Circle with center point (25, 100) and radius 25
-      circle = new Circle(25, height / 2, 25, Color.red);
+      circle = new Circle(25, height / 2, 10, Color.red);
       circle.setFilled(true);
       // Aim due west to hit left boundary first
       circle.setDirection(180);
